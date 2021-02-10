@@ -1,0 +1,34 @@
+{
+  "name": "Arboles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SophiaDipaola/Arboles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SophiaDipaola/Arboles/issues"
+  },
+  "homepage": "https://github.com/SophiaDipaola/Arboles#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "fs": "^0.0.1-security",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0"
+  }
+}
