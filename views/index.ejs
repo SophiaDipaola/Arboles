@@ -1,0 +1,14 @@
+<h1>ARBOLES</h1>
+
+<div>
+    <% for(let i=1; i < 20; i++) { %>
+        <h2><%= plants.data[i]['common_name'] %></h2>
+    </div>
+    <form method="POST" action="/plants">
+        <input hidden type="text" name="name" value="<%= plants.data[i]['common_name'] %>">
+        <button class="btn btn-primary" type="submit">Add this plant amigo!</button>
+      </form>
+      <% } %> 
+    </div>
+
+</div>

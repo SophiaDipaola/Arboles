@@ -17,8 +17,8 @@ app.get('/', function(req, res) {
   const botanicalUrl = 'https://trefle.io/api/v1/plants?token=-iiZCn_-b4dUknLykvG1EYr51e3aRDg4XtbyDyVeUnk';
   // Use request to call the API
   axios.get(botanicalUrl).then( function(apiResponse) {
-    const plants = apiResponse.data.common_name
-    console.log(plants)
+    const plants = apiResponse.data
+    // console.log(plants.data[1]['common_name'])
     res.render('index', { plants: plants });
   })
 });
